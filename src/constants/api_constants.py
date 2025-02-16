@@ -11,4 +11,9 @@ class APIConstants:
 
     def url_create_token(self):
         return "https://restful-booker.herokuapp.com/auth"
-    
+
+
+ # UPDATE/ DELETE/ PUT/PATCH/DELETE
+
+    def url_patch_put_delete(self, booking_id ):
+        return "https://restful-booker.herokuapp.com/booking" + str(booking_id)
