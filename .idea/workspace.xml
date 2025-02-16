@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49534300-8f96-4d87-aeb3-f3e5452f2304" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/crud/test_create_booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/endtoend/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/api_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/api_constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/api_request_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/api_request_wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/payloads.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payloads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/verification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/sample_testcase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/test_sample2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
-    </list>
+    <list default="true" id="49534300-8f96-4d87-aeb3-f3e5452f2304" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,21 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "prashantXK"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;prashantXK&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/prashantXK/APIAutomationFramework.git",
-    "accountId": "3f744312-9cf4-4c0c-8488-d53214b65e71"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/prashantXK/APIAutomationFramework.git&quot;,
+    &quot;accountId&quot;: &quot;3f744312-9cf4-4c0c-8488-d53214b65e71&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2t719r0LcYWR2fAhUY0VmziCKGt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,14 +43,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for sample_testcase.test_sample_testcase.executor": "Run",
-    "Python tests.Python tests for test_sample2.test_sample_testcase.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for sample_testcase.test_sample_testcase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_sample2.test_sample_testcase.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test_sample2.test_sample_testcase">
     <configuration name="Python tests for sample_testcase.test_sample_testcase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationFramework" />
@@ -134,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739690654156</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <option name="closed" value="true" />
+      <created>1739708037183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739708037183</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
