@@ -4,6 +4,9 @@
 
 #CREATE BOOKING-----
 
+import os
+from dotenv import load_dotenv
+
 def payload_create_booking():
     payload = {
         "firstname": "Jim",
@@ -37,9 +40,15 @@ def payload_update_booking():
 
 #CREATE TOKEN-----
 
-def payload_create_token():
-    payload = {
-    "username" : "admin",
-    "password" : "password123"
-}
+def create_token_payload():
+    load_dotenv()
+    username = os.getenv("USERNAME", "").strip()
+    password = os.getenv("PASSWORD", "").strip()
+
+    print(f"Final Username: {username}")  # Debugging
+    print(f"Final Password: {password}")  # Debugging
+
+    payload = {"username": username, "password": password}
+    print("Payload Sent to API:", payload)  # Debugging
+
     return payload

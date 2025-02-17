@@ -10,8 +10,8 @@ def get_request(url, auth, in_json):
         return get_response
 
 
-def post_request(url, auth, headers, payload, in_json):
-    post_response = requests.post(url = url, headers=headers, auth=auth, data = json.dumps(payload))
+def post_request(url,auth,  headers, payload, in_json):
+    post_response = requests.post(url=url, headers=headers, auth=auth, json=payload)
     if in_json:
         return post_response.json()
     else:

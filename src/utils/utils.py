@@ -23,17 +23,17 @@ class Utils(object):
 
 #COOKIE HEADERS-----
 
-def common_header_put_delete_patch_cookie(self,token):
-    headers = {
+    def common_header_put_delete_patch_cookie(self,token):
+        headers = {
         "Content-Type" : "application/json",
         "Cookie" : "token" +str(token)
-    }
-    return headers
+        }
+        return headers
 
 #BASIC_AUTH HEADERS-----
 
 
-def common_header_put_patch_delete_basic_auth(self,basic_auth_value):
+    def common_header_put_patch_delete_basic_auth(self,basic_auth_value):
         headers = {
             "Content-Type" : "application/json",
             "Authorization" : "Basic" + str(basic_auth_value)

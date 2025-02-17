@@ -33,7 +33,7 @@ class TestCreateBooking(object):
                                 200)
         LOGGER.info(response.json())
         LOGGER.info(response.json()["bookingid"])
-        verify_json_key_not_null(response.json()["bookingid"])
+        verify_json_key_not_none(response.json()["bookingid"])
         verify_json_key_should_be_greater_than_zero(response.json()["bookingid"])
 
     @pytest.mark.negative
@@ -59,7 +59,7 @@ class TestCreateBooking(object):
             url = APIConstants().url_create_booking(),
             auth = None,
             headers = Utils().common_headers_json(),
-            payload = {"name" : "prashant"},
+            payload = {},
             in_json = False
 
         )

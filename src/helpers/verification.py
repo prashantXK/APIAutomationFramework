@@ -8,10 +8,17 @@ def verify_response_key(key, expected_data):
     assert key == expected_data, "Failed to match the key"
 
 
-def verify_json_key_not_null(key):
-    assert key != 0, "Failed! key is null"
+# def verify_json_key_not_null(key):
+#     assert key != 0, "Failed! key is null"
+
+def verify_json_key_not_none(key):
+    assert key is not None
 
 
 def verify_json_key_should_be_greater_than_zero(key):
     assert key > 0, "Failed! key !> 0"
+
+
+def verify_delete_response(response):
+    assert "Created" in response
 
